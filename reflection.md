@@ -1,7 +1,7 @@
 # Reflection
 
-Student Name:  name
-Sudent Email:  email
+Student Name:  Zoey McCarthy
+Sudent Email:  zpmccart@syr.edu
 
 ## Instructions
 
@@ -23,3 +23,4 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
+I think this assignment helped me understand web scraping better. I see the utility of writing a function in the menuitemextractor.py file that can be used in the for loop in the tully_scraper.py file. I think in the future web scraping could be useful to me, though Playwright seems to disagree with my laptop despite all the time we have spent trying to get them to mesh. Despite these difficulties, I got this assignment to run. I initially had some errors running the tully_scraper file, though I resolved them. Overall, I think I learned a lot about web scraping from this assignment, and more specifically on how to debug Playwright and Chromium on top of how to write the actual code to perform the web scraping. 

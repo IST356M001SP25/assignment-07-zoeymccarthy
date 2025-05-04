@@ -19,13 +19,13 @@ def tullyscraper(playwright: Playwright) -> None:
         for item in row.query_selector_all("div.foodmenu__menu-item"):
             item_text = item.inner_text()
             extracted_item = extract_menu_item(title_text, item_text)
-            print(f"  MENU ITEM: {extracted_item.name}")
             extracted.append(extracted_item.to_dict())
+            print(f"  MENU ITEM: {extracted_item.name}")
 
     df = pd.DataFrame(extracted)
     df.to_csv("cache/tullys_menu.csv", index=False)    
     
-    # ---------------------
+    # --------------------- end of my code 
     context.close()
     browser.close()
 
